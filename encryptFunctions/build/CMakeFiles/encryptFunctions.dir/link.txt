@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -Wextra -g -std=c++11   CMakeFiles/encryptFunctions.dir/src/encryptFunctions.cpp.o CMakeFiles/encryptFunctions.dir/src/rc4.c.o  -o encryptFunctions -rdynamic 
