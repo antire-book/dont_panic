@@ -7,7 +7,7 @@ If you don't want to compile the project yourself then you can find it on VirusT
 https://www.virustotal.com/en/file/a39b83850757ca85a4ddd049226662ecf9f3644a29fb862ad27751b090a468b5/analysis/
 
 ## Dependencies
-The code was written and tested on Ubuntu 16.04. I can't promise it works anywhere else. Furthermore, the project depends on:
+The code was written and tested on Ubuntu 16.04 **x64**. I can't promise it works anywhere else. Furthermore, the project depends on:
 
 1. musl
 2. cmake
