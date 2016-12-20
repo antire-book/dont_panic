@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/albino-lobster/antire_book/chap_4_static_analysis/encryptFunctions/src/encryptFunctions.cpp
+cstdlib
+-
+iostream
+-
+fstream
+-
+iomanip
+-
+cstring
+-
+random
+-
+elf.h
+-
+map
+-
+rc4.h
+/home/albino-lobster/antire_book/chap_4_static_analysis/encryptFunctions/src/rc4.h
+
+/home/albino-lobster/antire_book/chap_4_static_analysis/encryptFunctions/src/rc4.c
+rc4.h
+/home/albino-lobster/antire_book/chap_4_static_analysis/encryptFunctions/src/rc4.h
+sys/types.h
+-
+
+/home/albino-lobster/antire_book/chap_4_static_analysis/encryptFunctions/src/rc4.h
+stdint.h
+-
+
