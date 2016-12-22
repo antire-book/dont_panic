@@ -6,6 +6,14 @@ If you don't want to compile the project yourself then you can find it on VirusT
 
 https://www.virustotal.com/en/file/a39b83850757ca85a4ddd049226662ecf9f3644a29fb862ad27751b090a468b5/analysis/
 
+## FAQ
+### What is the purpose of this repository?
+This is intended to be educational. Compile the binary and hand it to your junior reverse engineer. Tell him/her to recover the password to the bind shell. Or tell them to expand the *cryptor* into something that looks more like a real cryptor. This is an education tool. No more and no less.
+### How does this compare to Shiva or Burneye?
+I would say that it doesn't. Shiva (whose source was never released as far as I know) and Burneye are *real* ELF protection tools. This repository only seeks to teach the reader how to program various anti-reversing techniques. Those tools are for real world usage. This repository is for learning.
+### Why do I need to use *sudo*?
+*Trouble* spawns a child that traces the parent process using *ptrace()*. You can easily remove this logic if you are uncomfortable with it.
+
 ## Dependencies
 The code was written and tested on Ubuntu 16.04 **x64**. I can't promise it works anywhere else. Furthermore, the project depends on:
 
