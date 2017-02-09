@@ -44,15 +44,15 @@ add_custom_command(TARGET ${PROJECT_NAME}
 
 add_custom_command(TARGET ${PROJECT_NAME}
                    POST_BUILD
-                   COMMAND ../cryptor/cryptor ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME})
-
-add_custom_command(TARGET ${PROJECT_NAME}
-                   POST_BUILD
                    COMMAND ../stripBinary/stripBinary ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME})
 
 add_custom_command(TARGET ${PROJECT_NAME}
                    POST_BUILD
                    COMMAND ../fakeHeadersXBit/fakeHeadersXBit ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME})
+
+add_custom_command(TARGET ${PROJECT_NAME}
+                   POST_BUILD
+                   COMMAND ../cryptor/cryptor ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME})
 
 add_custom_command(TARGET ${PROJECT_NAME}
                    POST_BUILD
